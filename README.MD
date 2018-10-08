@@ -30,28 +30,26 @@ You may need Harmony 2.04 or greater, I haven't chased down every dependency.
 
 You will need to add these files to your project
 
-src/NetworkInterface_wifi.c
-src/wilc1000/bsp/source/nm_bsp_pic32.c
-src/wilc1000/bus_wrapper/source/nm_bsp_pic32.c
-src/wilc1000/common/source/nm_common.c
-src/wilc1000/driver/source/m2m_coex.c
-src/wilc1000/driver/source/m2m_hif.c
-src/wilc1000/driver/source/m2m_periph.c
-src/wilc1000/driver/source/m2m_wifi.c
-src/wilc1000/driver/source/nmasic.c
-src/wilc1000/driver/source/nmbus.c
-src/wilc1000/driver/source/nmdrv.c
-src/wilc1000/driver/source/nmdrv_crt.c
-src/wilc1000/driver/source/nmi2c.c
-src/wilc1000/driver/source/nmsdio.c
-src/wilc1000/driver/source/nmspi.c
-src/wilc1000/driver/source/nmuart.c
-src/wilc1000/driver/source/spi_flash.c
+src/NetworkInterface_wifi.c<br>
+src/wilc1000/bsp/source/nm_bsp_pic32.c<br>
+src/wilc1000/bus_wrapper/source/nm_bsp_pic32.c<br>
+src/wilc1000/common/source/nm_common.c<br>
+src/wilc1000/driver/source/m2m_coex.c<br>
+src/wilc1000/driver/source/m2m_hif.c<br>
+src/wilc1000/driver/source/m2m_periph.c<br>
+src/wilc1000/driver/source/m2m_wifi.c<br>
+src/wilc1000/driver/source/nmasic.c<br>
+src/wilc1000/driver/source/nmbus.c<br>
+src/wilc1000/driver/source/nmdrv.c<br>
+src/wilc1000/driver/source/nmdrv_crt.c<br>
+src/wilc1000/driver/source/nmi2c.c<br>
+src/wilc1000/driver/source/nmsdio.c<br>
+src/wilc1000/driver/source/nmspi.c<br>
+src/wilc1000/driver/source/nmuart.c<br>
+src/wilc1000/driver/source/spi_flash.c<br>
 
 You will need to provide an interrupt for the wilc interrupt pin, and configure nm_bsp_pic32.c and nm_bus_wrapper_pic32.c 
 and headers to reflect the spi port and pins correctly.
-
-Note that in 
 
 ## License
 
